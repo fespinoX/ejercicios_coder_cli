@@ -22,5 +22,7 @@
 
 <style scoped>
 
-
+    .btn {
+        font-weight: 600;
+    }
 </style>

@@ -17,6 +17,15 @@
 </script>
 
 <style scoped>
-
+    
+    .alert {
+        font-weight: 600;
+    }
+    
+    .alert-success {
+        background-color: transparent;
+        color: #3cb33c;
+        border: 1px solid #3cb33c;
+    }
 
 </style>
