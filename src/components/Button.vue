@@ -1,6 +1,6 @@
 <template>
     <a :href="link" class="btn btn-danger">
-        {{ btntxt }}
+        {{ btnTxt }}
     </a>
 </template>
 
@@ -8,7 +8,7 @@
     export default {
         name: 'Button',
         props: {
-            btntxt: {
+            btnTxt: {
                 type: String,
                 default: "Click acá"
             },

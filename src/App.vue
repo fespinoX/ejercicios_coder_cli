@@ -2,8 +2,8 @@
   <div id="app">
     <img alt="Un michi" src="./assets/michi.png">
     <HelloWorld msg="Holas vienen, holas van"/>
-    <Alert alerttxt="Estás acá, esto es una alerta" />
-    <Button btntxt="OHNO!" link="http://www.ohno.com.ar"/>
+    <Alert cssClass="alert-success" alertTxt="Estás acá, esto es una alerta" />
+    <Button btnTxt="OHNO!" link="http://www.ohno.com.ar"/>
   </div>
 </template>
 
