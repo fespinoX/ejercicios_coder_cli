@@ -2,16 +2,22 @@
   <div id="app">
     <img alt="Un michi" src="./assets/michi.png">
     <HelloWorld msg="Holas vienen, holas van"/>
+    <Alert alerttxt="Estás acá, esto es una alerta" />
+    <Button btntxt="OHNO!" link="http://www.ohno.com.ar"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Button from './components/Button.vue'
+import Alert from './components/Alert.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Button,
+    Alert
   }
 }
 </script>
